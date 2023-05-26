@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: p;
+}
+
+body{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 0 auto;
+}
+
+.contain{
+    background-color: rgb(173, 216, 230);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-head{
+    background: linear-gradient(#000, #000000da);
+    width: 210px; 
+    height: 430px;
+    border-radius: 20px;
+}
+.calculator-head, .cal-dev{
+    position: relative;
+}
+.cal-dev{
+    color: #fff;
+    position: absolute;
+    bottom: 290px;
+    right: 30px;
+    font-size: 25px;
+}
+                       /* INSIDE CALCULATOR */
+        .contain-one{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 11rem 0 auto;
+            column-gap: 13px;
+            margin-bottom: 8px;
+        }
+
+        .one{
+            background-color: #2c2a2a;
+            border: none;
+            width: 35px;
+            height: 25px;
+            border-radius: 15px;
+            cursor: pointer;
+            color: rgb(10, 134, 175);
+            font-weight: bold;
+        }
+
+        .contain-two{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 6px;
+            margin-bottom: 8px;
+        }
+        .contain-three{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 6px;
+        }
+
+        .two{
+            height: 33px;
+         width: 40px;
+            background-color: #2c2a2a;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            color: rgb(10, 134, 175);
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        #two{
+            font-size: 20px;
+            background-color:rgb(10, 134, 175);
+            color: #fff;
+        }
+         
+        #three{
+            font-size: 25px;
+            padding-top: 7px;
+            background-color:rgb(10, 134, 175);
+            color: #fff;
+        }
+
+         
+            #five{
+                font-size: 25px;
+                padding-bottom: 20px;
+                background-color:rgb(10, 134, 175);
+                color: #fff;
+            }
+
+               .group-one{
+                display: block;
+                 margin-bottom: 45px;
+               margin-right: 5px;
+               }
+
+             
+
+               
+               .tap-one,
+               .tap-two{
+                   height: 33px;
+                width: 40px;
+                   background-color: #2c2a2a;
+                   border: none;
+                   border-radius: 10px;
+                   cursor: pointer;
+                   color: rgb(10, 134, 175);
+                   font-weight: bold;
+                   font-size: 15px;
+               }
+
+               .tap-two{
+                margin-left: 1px;
+                margin-right: 1px;
+               }
+       
+               .div-one{
+                margin-bottom: 8px;
+               }
+
+               .tap-head,
+               .tap-head-one{
+                height: 55px;
+                width: 35px;
+                background-color:rgb(10, 134, 175);
+                    border: none;
+                    border-radius: 10px;
+                    color: #fff;
+                    font-size: 20px;
+                    cursor: pointer;
+               }
+               
+               .tap-head{
+                margin-bottom: 8px;
+               }
+
+               .div-three{
+                display: flex;
+                flex-direction: column;
+               }
+
+               .contain-four{
+                display: flex;
+                justify-content: center;
+                margin-top: -33px;
+                column-gap: 6px;
+                margin-right: 50px;
+               }
+
+               .tap-dot{
+                height: 33px;
+                width: 40px;
+                   background-color: #2c2a2a;
+                   border: none;
+                   border-radius: 10px;
+                   cursor: pointer;
+                   color: rgb(10, 134, 175);
+                   font-weight: bold;
+                   font-size: 15px;
+                   padding-bottom: 15px;
+                   font-size: 20px;
+               }
+
+               .tap-tap{
+                width: 85px;
+                height: 35px;
+                background-color: #2c2a2a;
+                border: none;
+                color: rgb(10, 134, 175);
+                font-size: 20px;
+                border-radius: 10px;
+                cursor: pointer;
+            }
